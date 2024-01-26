@@ -1,5 +1,6 @@
 mod median_sorted_array;
 mod string_to_number;
+mod divide_without_divide;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
