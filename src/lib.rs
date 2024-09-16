@@ -1,6 +1,8 @@
 mod median_sorted_array;
 mod string_to_number;
 mod divide_without_divide;
+mod longest_string_without_repeating;
+mod longest_palindrome;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
