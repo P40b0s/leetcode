@@ -3,6 +3,7 @@ mod string_to_number;
 mod divide_without_divide;
 mod longest_string_without_repeating;
 mod longest_palindrome;
+mod reverse_integer;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
