@@ -6,6 +6,7 @@ mod longest_palindrome;
 mod reverse_integer;
 mod mul_strings;
 mod divide_without_div;
+mod trapping_rain_water;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
