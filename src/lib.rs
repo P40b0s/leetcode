@@ -4,6 +4,8 @@ mod divide_without_divide;
 mod longest_string_without_repeating;
 mod longest_palindrome;
 mod reverse_integer;
+mod mul_strings;
+mod divide_without_div;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
