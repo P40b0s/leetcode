@@ -7,6 +7,7 @@ mod reverse_integer;
 mod mul_strings;
 mod divide_without_div;
 mod trapping_rain_water;
+mod first_missing_positive;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
