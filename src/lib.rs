@@ -8,6 +8,7 @@ mod mul_strings;
 mod divide_without_div;
 mod trapping_rain_water;
 mod first_missing_positive;
+mod merge_ksorted_list;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

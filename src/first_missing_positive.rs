@@ -1,7 +1,5 @@
 use std::collections::HashSet;
 
-
-
 fn solution(nums: Vec<i32>) -> i32 
 {
     let mut nums = nums;
