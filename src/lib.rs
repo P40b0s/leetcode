@@ -11,6 +11,7 @@ mod first_missing_positive;
 mod merge_ksorted_list;
 mod max_points_on_a_line;
 mod extra_characters_in_string;
+mod longest_common_prefix;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
