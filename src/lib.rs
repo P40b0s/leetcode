@@ -16,6 +16,8 @@ mod longest_valid_parentheses;
 mod r#match;
 mod buy_sell;
 mod test;
+mod rotate_array;
+mod buy_sell2;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

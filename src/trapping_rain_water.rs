@@ -45,6 +45,26 @@ fn solution(height: Vec<i32>) -> i32
     }
     count
 }
+
+pub fn trap(height: Vec<i32>) -> i32 
+{
+    let n = height.len();
+    let mut l = vec![0; n];
+    let mut r = vec![0; n];
+    let mut sum = 0;
+    l[0] = height[0];
+    r[n-1] = height[n-1];
+    for i in 1..n 
+    {
+        l[i] = std::cmp::max(l[i-1], height[i]);
+        r[n - i - 1] = std::cmp::max(r[n-i], height[n-i-1]);
+    }
+    for i in 0..n
+    {
+        sum += std::cmp::min(l[i], r[i]) - height[i];
+    }
+    sum as i32
+}
 #[cfg(test)]
 mod tests
 {

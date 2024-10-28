@@ -30,7 +30,7 @@ pub fn max_profit(prices: Vec<i32>) -> i32
             && vecs[i2].1 > vecs[i1].1 
             && vecs[i2].0 > vecs[i1].1
             {
-                println!("{}>{} && {}>{} && {}>{} -> {} + {} = {}", vecs[i2].0, vecs[i1].0, vecs[i2].1, vecs[i1].1, vecs[i2].0, vecs[i1].1, vecs[i2].2,  vecs[i1].2, vecs[i2].2 + vecs[i1].2);
+                //println!("{}>{} && {}>{} && {}>{} -> {} + {} = {}", vecs[i2].0, vecs[i1].0, vecs[i2].1, vecs[i1].1, vecs[i2].0, vecs[i1].1, vecs[i2].2,  vecs[i1].2, vecs[i2].2 + vecs[i1].2);
                 single_max = single_max.max(vecs[i2].2 + vecs[i1].2);
             }
         }
@@ -88,7 +88,6 @@ mod tests
         let prices = vec![1,2,3,4,5];
         println!("{}", super::max_profit(prices));
     }
-
     #[test]
     fn test_4()
     {
